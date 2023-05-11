@@ -1,0 +1,123 @@
+INSTALL MODULE NYA SENDIRI KALAU DI TERMUX/PANEL KARENA SC INI BLM DI PASANGIN MODUL
+sebelum yarn install di push dulu storage nya
+
+cd /sdcard
+cd letak file ( contoh saja kamu extraknya di folder download jadi di download cd download)
+cd nama file ( contoh nama file nya cd anyaTerbaruv2)
+
+untuk mastiin kmu sudah install git
+pkg install git
+pkg install yarn
+yarn install
+
+jika sudah keinstall tidak usah yarn install lagi 
+
+untuk panel langsung run aja otomatis module ke install
+
+
+jika masih ga tau masuk gc lenttobs tanya di situ
+
+
+
+
+
+
+BACA JANGAN MALAS BACA YA WE GA MAU NGULANG DUA KALI GA BAKALAN KU RESPON!!!
+
+
+
+
+••••••••PEMBUKAAN•••••••••
+Download File Anya V2 Dari Lenttobs
+lalu jika kalian ingin menjalankan nya di termux Coba Baca Di List paling bawah di STEP TERMUX
+Jika Kalian Run di panel maka ikutin step ini Dan berlaku juga Untuk pengguna termux
+
+Step 1
+
+User Panel : ••• ( Jika sudah faham Abaikan )
+Download file nya Lalu upload Ke dalam Panel dengan berbentuk Zip Lalu Kalian Extrak / Unarcive File nya., Jika sudah Kalian Select all dengan cara klik logo kotak di kiri atas Jika sudah tercentang Semua kalian lihat Bar paling bawah ada tulisan move/pindah kalian pindah/move Ke directory
+../ 
+jika sudah kalian Run
+
+User Termux : ••• ( Abaikan jika sudah Faham )
+Extrak file nya terserah di mana Saya beri contoh Kalian Extrak di dalam Folder download
+jika Sudah di extrak Kalian buka termux kalian install dulu Build Pack nya
+berikut command nya bisa kalian salin 
+
+pkg update && pkg upgrade && pkg install nodejs && pkg install git && pkg install ffmpeg && pkg install imagemagick && pkg install yarn 
+
+Jika stuck tekan Y Y saja
+
+kemudian 
+
+termux-setup-storage
+(IZINKAN)
+
+cd /sdcard && cd download && cd nama file nya
+
+npm start jika tidak bisa ktik node .
+
+
+STEP PENTING !!!!!
+
+Jika kalian sudah scan Code Qr anyaV2 kalian jangab langsung ke bot nya Kalian stop in Lalu kalian pergi ke directory file bot nya kalian ubah nama file lenttobs.js dengan file berikut
+
+link : Udah ada namnya lenttobs2.js
+
+Cukup ubah lenttobs.js nya saja, Jika sudah kalian Run/Jalan kan kembali Happy enjoy
+
+
+tips penting cara setting nya 
+
+untuk merubah atau menyeting ada di Folder STRING
+Perlu di garis bawahi JANGAN MENGAHPUS TANDA 
+( ` ) < tanda Petik Atas > Cukup Hapus bagian yang penting saja 
+
+Untuk merubah nomor owner Terdapat di bagian file dekat lenttobs.ns namnya owner.js 
+
+jika kalian sebagai owner ingin merubah jumlah limit
+ada di limits.js kalian ubah angka nya Ok? jika sudah di ubah jangan lupa ketik !resetlimit untuk meredet semua limit default Menjadi limit yang anda inginkan
+
+jika ada seseorang ingin membeli limit kalian buka dulu file 
+database/balance.json
+
+ada nomor
+    "id": "6285791762177@s.whatsapp.net",
+    "balance": 9999999999
+    itu cukup kamu ubah nomor nya menjadi nomormu sebagai owner contoh
+     "id": "628xxxxxxx@s.whatsapp.net",
+     "balance": 9999999999
+        
+    Lalu Save
+    
+ Tidak Ada lagi kata bertanya Jika kamu mencermati apa yang sudah saya terangkan FAHAM?
+ 
+ QNA
+👥 BANG KOK STUCK YA DI CONSOLE ATAU TAMPILAN TERMUX / PANEL KU
+👤 EMANG BEGITU JIKA GA GITU BAKALAM KEBOCORAN APIKEY JIKA ADA FITUR EROR DARI API, UNTUK MENJAGA AGAR API TIDAK DI KETAHUI OLEH ORANG LAIN
+
+👥 BANG SUPORT PANEL?
+👤 SUPORT KOK
+
+👥 BANG KOK AKU HABIS SCAN GBSA KETIK !help/!menu ya
+👤 MANGKANYA JANGAN MALAS BACA SUDAH SAYA TERNGKAN, JIKA SUDAH SCAN QR MAKA UBAHLAH FILE lenttobs.js Yang sudah saya sediakam link nya 
+
+👥 BANG NAMA SESSIONYA APA?
+👤 anya.json
+
+👥 BANG CARA ADDPREMIUN GMNA BANG
+👤 !premium add tag orangnya jumlah
+example : !premium add @tobi 30day
+begitu pula untuk delete premium
+Example ; !premium del @tobi
+
+kok ga ngrespon? brti Lu bukan owner kocak ubah nomor owner di string/owner.js
+
+ 👥 BANG AKU UDAH IKUTIN STEP BY STEP AKAM TETAPI KETIKA AKU KETIK !help Tidak muncul menu bang kalau aku ketik !ping muncul
+👤 JANGAN MEMAKAI WHATSAAP BUSSINES UNTUK NOMOR BOT!!!
+
+ 👥 BANG AKU UDAH IKUTIN STEP BY STEP BAHKAN AKU GA MAKAI WA BUSSINES UNTUK NOMOR BOT KETIKA AKU KETIK !help atau !menu atau !ping GA MUNCUL MENU BANG
+👤 PASTIKAN KAMU GA SALAH EDIT
+ 
+ © lenttobs (AnyaMd)
+
